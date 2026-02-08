@@ -275,7 +275,7 @@
     <string name="editor_error_policy_retry">执行失败时：尝试重试</string>
     <string name="editor_retry_count">重试次数</string>
     <string name="editor_retry_times">次</string>
-    <string name="editor_retry_interval">重试间隔 (毫秒)</string>
+    <string name="editor_retry_interval">重试间隔</string>
     <string name="editor_more_settings">更多设置</string>
     <string name="tab_workflows">工作流</string>
     <string name="tab_modules">模块</string>

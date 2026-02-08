@@ -275,7 +275,7 @@
     <string name="editor_error_policy_retry">On error: Retry</string>
     <string name="editor_retry_count">Retry count</string>
     <string name="editor_retry_times">times</string>
-    <string name="editor_retry_interval">Retry interval (ms)</string>
+    <string name="editor_retry_interval">Retry interval</string>
     <string name="editor_more_settings">More settings</string>
     <string name="tab_workflows">Workflows</string>
     <string name="tab_modules">Modules</string>
