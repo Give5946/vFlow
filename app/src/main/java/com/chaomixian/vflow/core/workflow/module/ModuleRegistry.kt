@@ -133,8 +133,12 @@ object ModuleRegistry {
         register(GetVariableModule(), context)
         register(CalculationModule(), context)
         register(TextProcessingModule(), context)
+        register(TextSplitModule(), context)
+        register(TextReplaceModule(), context)
+        register(TextExtractModule(), context)
         register(Base64EncodeOrDecodeModule(), context)
         register(CommentModule(), context)
+        register(FileOperationModule(), context)
 
         // 文件
         register(ImportImageModule(), context)
@@ -171,6 +175,7 @@ object ModuleRegistry {
         register(GetAppUsageStatsModule(), context)
         register(InvokeModule(), context)
         register(SystemInfoModule(), context)
+        register(PlayAudioModule(), context)
 
         // Core (Beta) 模块
         // 网络控制组

@@ -493,6 +493,40 @@
     <string name="option_vflow_data_text_processing_operation_split">分割</string>
     <string name="option_vflow_data_text_processing_operation_replace">替换</string>
     <string name="option_vflow_data_text_processing_operation_regex">正则提取</string>
+
+    <!-- TextSplitModule -->
+    <string name="module_vflow_data_text_split_name">文本分割</string>
+    <string name="module_vflow_data_text_split_desc">将文本按分隔符分割成列表。如果分隔符为空，则逐字符分割。</string>
+    <string name="param_vflow_data_text_split_text_name">源文本</string>
+    <string name="param_vflow_data_text_split_delimiter_name">分隔符</string>
+    <string name="output_vflow_data_text_split_result_name">结果列表</string>
+    <string name="summary_vflow_data_text_split">分割: </string>
+
+    <!-- TextReplaceModule -->
+    <string name="module_vflow_data_text_replace_name">文本替换</string>
+    <string name="module_vflow_data_text_replace_desc">将文本中的指定内容替换为新内容</string>
+    <string name="param_vflow_data_text_replace_text_name">源文本</string>
+    <string name="param_vflow_data_text_replace_find_name">查找</string>
+    <string name="param_vflow_data_text_replace_replace_name">替换为</string>
+    <string name="output_vflow_data_text_replace_result_name">结果文本</string>
+    <string name="summary_vflow_data_text_replace">替换: </string>
+
+    <!-- TextExtractModule -->
+    <string name="module_vflow_data_text_extract_name">提取文本</string>
+    <string name="module_vflow_data_text_extract_desc">从文本中提取指定部分</string>
+    <string name="param_vflow_data_text_extract_text_name">源文本</string>
+    <string name="param_vflow_data_text_extract_mode_name">提取方式</string>
+    <string name="param_vflow_data_text_extract_start_name">起始位置</string>
+    <string name="param_vflow_data_text_extract_end_name">结束位置</string>
+    <string name="param_vflow_data_text_extract_index_name">字符位置</string>
+    <string name="param_vflow_data_text_extract_count_name">字符数量</string>
+    <string name="output_vflow_data_text_extract_result_name">结果文本</string>
+    <string name="option_vflow_data_text_extract_mode_substring">提取中间</string>
+    <string name="option_vflow_data_text_extract_mode_prefix">提取前缀</string>
+    <string name="option_vflow_data_text_extract_mode_suffix">提取后缀</string>
+    <string name="option_vflow_data_text_extract_mode_char">提取字符</string>
+    <string name="summary_vflow_data_text_extract">提取: </string>
+
     <string name="error_vflow_file_save_image_invalid">输入的不是一个有效的图片变量</string>
     <string name="error_vflow_file_save_image_param_error">参数错误</string>
     <string name="error_vflow_file_save_image_file_error">文件错误</string>
@@ -1577,4 +1611,46 @@
     <string name="output_vflow_core_nfc_state_enabled_name">NFC状态</string>
     <string name="summary_vflow_core_set_nfc">NFC</string>
     <string name="summary_vflow_core_nfc_state">读取NFC状态</string>
+
+    <!-- Play Audio Module -->
+    <string name="param_vflow_device_play_audio_await_name">等待播放完成</string>
+    <string name="module_vflow_device_play_audio_name">播放音频</string>
+    <string name="module_vflow_device_play_audio_desc">播放系统自带的音频或本地音频文件，支持设置音量。</string>
+    <string name="param_vflow_device_play_audio_type_name">音频类型</string>
+    <string name="param_vflow_device_play_audio_system_sound_name">系统音频</string>
+    <string name="param_vflow_device_play_audio_local_file_name">本地文件路径</string>
+    <string name="param_vflow_device_play_audio_volume_name">音量 (%)</string>
+    <string name="param_vflow_device_play_audio_loop_name">循环播放</string>
+    <string name="output_vflow_device_play_audio_success_name">是否成功</string>
+
+    <!-- Audio Types -->
+    <string name="audio_type_system">系统音频</string>
+    <string name="audio_type_local">本地文件</string>
+
+    <!-- Sound Names -->
+    <string name="sound_notification">通知音</string>
+    <string name="sound_alarm">闹钟</string>
+    <string name="sound_ringtone">铃声</string>
+    <string name="sound_notification_2">通知音 2</string>
+    <string name="sound_notification_3">通知音 3</string>
+    <string name="sound_notification_4">通知音 4</string>
+    <string name="sound_notification_5">通知音 5</string>
+
+    <!-- Play Audio Messages -->
+    <string name="msg_vflow_device_play_audio_preparing">正在准备音频…</string>
+    <string name="msg_vflow_device_play_audio_playing">正在播放音频</string>
+    <string name="error_vflow_device_play_audio_no_file">未选择音频文件</string>
+    <string name="error_vflow_device_play_audio_file_required">请选择本地音频文件</string>
+    <string name="error_vflow_device_play_audio_file_not_found">音频文件不存在</string>
+    <string name="error_vflow_device_play_audio_file_missing">文件不存在: %s</string>
+    <string name="error_vflow_device_play_audio_invalid_source">无效的音频源</string>
+    <string name="error_vflow_device_play_audio_source_error">加载音频源失败</string>
+    <string name="error_vflow_device_play_audio_failed">播放音频失败</string>
+    <string name="error_vflow_device_play_audio_unknown">发生未知错误</string>
+
+    <!-- Common -->
+    <string name="button_select">选择</string>
+    <string name="text_yes">是</string>
+    <string name="text_no">否</string>
+    <string name="text_loop">循环</string>
 </resources>
