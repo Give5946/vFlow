@@ -60,7 +60,7 @@
     <string name="workflow_editor_execute">执行喵</string>
     <string name="workflow_editor_save">保存喵</string>
     <string name="share_to_vflow">分享到 vFlow 喵</string>
-    <string name="shortcut_executing">正在通过快捷方式启动：%s 喵</string>
+    <string name="shortcut_executing">正在通过快捷方式启动喵：%s</string>
 
     <string name="screen_op_type_label">操作类型喵</string>
     <string name="screen_op_tap">点击喵</string>
@@ -105,8 +105,8 @@
     <string name="home_permission_missing">状态：存在 %d 个缺失的权限喵</string>
     <string name="home_recent_logs">最近日志喵</string>
     <string name="home_quick_execute">快速执行喵</string>
-    <string name="home_starting_execution">开始执行：%s 喵</string>
-    <string name="home_stopped_execution">已停止：%s 喵</string>
+    <string name="home_starting_execution">开始执行喵：%s</string>
+    <string name="home_stopped_execution">已停止喵：%s</string>
 
     <!-- Workflow Item -->
     <string name="workflow_item_more_options">更多选项喵</string>
@@ -144,7 +144,7 @@
     <string name="settings_toast_diagnostic_running">正在运行诊断喵...</string>
     <string name="settings_toast_diagnostic_complete">诊断完成，请点击"导出日志"查看详细结果喵</string>
     <string name="settings_toast_logs_exported">日志导出成功喵</string>
-    <string name="settings_toast_export_failed">导出失败：%s 喵</string>
+    <string name="settings_toast_export_failed">导出失败喵：%s</string>
 
     <!-- Language Settings -->
     <string name="settings_section_language">语言喵</string>
@@ -156,14 +156,14 @@
     <string name="settings_button_later">稍后喵</string>
 
     <!-- Workflow Editor -->
-    <string name="editor_toast_execution_start">开始执行：%s 喵</string>
+    <string name="editor_toast_execution_start">开始执行喵：%s</string>
     <string name="editor_toast_workflow_name_empty">工作流名称不能为空喵</string>
     <string name="editor_toast_ui_inspector_started">UI 检查器已开启，拖动图标选择控件喵</string>
     <string name="editor_group_named_variables">命名变量喵</string>
     <string name="variable_type_text">文本喵</string>
     <string name="variable_named_variable">命名变量喵</string>
     <string name="editor_toast_variable_reference_updated">已自动更新对变量 \'%s\' 的引用喵</string>
-    <string name="editor_toast_input_definition_not_found">无法找到输入定义：%s 喵</string>
+    <string name="editor_toast_input_definition_not_found">无法找到输入定义喵：%s</string>
     <string name="editor_toast_trigger_cannot_duplicate">触发器无法复制喵</string>
     <string name="editor_toast_steps_duplicated">已复制 %d 个步骤喵</string>
     <string name="editor_toast_invalid_move">无效的移动喵</string>
@@ -183,13 +183,13 @@
     <!-- WorkflowListFragment -->
     <string name="toast_overlay_permission_required">需要悬浮窗权限才能显示快速控制面板喵</string>
     <string name="toast_export_success">导出成功喵</string>
-    <string name="toast_export_failed">导出失败：%s 喵</string>
+    <string name="toast_export_failed">导出失败喵：%s</string>
     <string name="toast_backup_success">备份成功喵</string>
-    <string name="toast_backup_failed">备份失败：%s 喵</string>
+    <string name="toast_backup_failed">备份失败喵：%s</string>
     <string name="toast_no_workflow_in_file">文件中没有可导入的工作流喵</string>
-    <string name="toast_import_failed">导入失败：%s 喵</string>
+    <string name="toast_import_failed">导入失败喵：%s</string>
     <string name="toast_copied_as">已复制为 \'%s（副本）\' 喵</string>
-    <string name="toast_starting_workflow">开始执行：%s 喵</string>
+    <string name="toast_starting_workflow">开始执行喵：%s</string>
     <string name="toast_import_completed">导入完成喵</string>
     <string name="dialog_overlay_permission_title">需要悬浮窗权限喵</string>
     <string name="dialog_overlay_permission_message">为了显示收藏工作流的快速控制面板，需要授予悬浮窗权限喵。</string>
@@ -232,27 +232,27 @@
     <!-- AiGenerationSheet -->
     <string name="toast_please_enter_requirement">请输入需求喵</string>
     <string name="toast_please_enter_api_key">请在配置中输入 API Key 喵</string>
-    <string name="toast_generation_failed">生成失败：%s 喵</string>
+    <string name="toast_generation_failed">生成失败喵：%s</string>
     <string name="dialog_stop_generation_title">停止生成喵？</string>
     <string name="dialog_stop_generation_message">AI 正在生成中，确定要中断喵？</string>
 
     <!-- MagicVariablePickerSheet -->
-    <string name="dialog_dictionary_title">字典：%s 喵</string>
+    <string name="dialog_dictionary_title">字典喵：%s</string>
     <string name="dialog_enter_dictionary_key_title">输入字典键名喵</string>
-    <string name="dialog_list_title">列表：%s 喵</string>
+    <string name="dialog_list_title">列表喵：%s</string>
     <string name="dialog_enter_list_index_title">输入列表索引喵</string>
     <string name="dialog_select_property_title">选择 %s 的属性喵</string>
 
     <!-- ModuleRepoFragment -->
-    <string name="text_load_failed">加载失败：%s 喵</string>
-    <string name="toast_load_failed">加载失败：%s 喵</string>
+    <string name="text_load_failed">加载失败喵：%s</string>
+    <string name="toast_load_failed">加载失败喵：%s</string>
     <string name="dialog_download_module_title">下载模块喵</string>
     <string name="dialog_download_module_message">确定要下载 \'%s\' 喵？\n\n描述：%s\n\n版本：v%s\n分类：%s\n权限：%s</string>
     <string name="dialog_button_download">下载喵</string>
-    <string name="toast_downloading">正在下载：%s 喵</string>
-    <string name="toast_download_failed">下载失败：%s 喵</string>
-    <string name="toast_install_success">安装成功：%s 喵</string>
-    <string name="toast_install_failed">安装失败：%s 喵</string>
+    <string name="toast_downloading">正在下载喵：%s</string>
+    <string name="toast_download_failed">下载失败喵：%s</string>
+    <string name="toast_install_success">安装成功喵：%s</string>
+    <string name="toast_install_failed">安装失败喵：%s</string>
     <string name="dialog_module_conflict_title">模块冲突喵</string>
     <string name="dialog_module_conflict_message">已存在一个ID为 \'%s\' 的模块。您想如何处理来自仓库的 \'%s\' 喵?</string>
     <string name="toast_module_replaced">\'%s\' 已替换</string>
@@ -559,7 +559,7 @@
     <string name="toast_set_preferred_mode_first">请先手动启动一次 Core 以记录偏好喵</string>
     <string name="text_logs_not_available">日志文件不存在喵</string>
     <string name="text_no_logs_yet">暂无日志喵...</string>
-    <string name="text_log_load_failed">读取日志失败：%s 喵</string>
+    <string name="text_log_load_failed">读取日志失败喵：%s</string>
     <string name="status_checking">检查中喵...</string>
     <string name="status_running">运行中喵</string>
     <string name="status_stopped">已停止喵</string>
